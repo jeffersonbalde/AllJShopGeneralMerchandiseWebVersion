@@ -1,0 +1,131 @@
+/* INTER FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kaushan+Script&display=swap');
+
+* {
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    color: white;
+    background-color: rgb(11, 46, 68);
+}
+
+.title {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 1.3em;
+}
+
+.container-hotkeys {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: .1em;
+}
+
+.container h2 {
+    font-weight: 400;
+}
+
+.wrapper {
+    padding: 1em;
+}
+
+.client-name,
+.systemAd {
+    font-size: 1.3rem;
+}
+
+.client-name {
+    margin-left: 2em;
+}
+
+.logo h1 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgb(32, 171, 255);
+}
+
+section.hotkeys {
+    background-color: rgb(26, 148, 126);
+    /* height: 2em; */
+    color: white;
+}
+
+.keys {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.container-buttonss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: .4em;
+    padding-top: .2em;
+}
+
+.container-buttonss div button {
+    /* width: 6em; */
+    height: 3em;
+    padding: .2em 5.1em;
+    display: inline;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    border-color: grey;
+    font-weight: 600;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+
+.sales {
+    background-color: #C5E3FF;
+}
+
+.items {
+    background-color: #009FFF;
+}
+
+.stocks {
+    background-color: #82C7B8;
+}
+
+.low-stocks {
+    background-color: #FCFCD4;
+}
+
+.container-dashboards {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.container-dashboards div {
+    width: 18em;
+    height: 9em;
+}
+
+.panel {
+    width: 90em;
+    height: 37.4em;
+    background-color: white;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
